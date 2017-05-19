@@ -10,15 +10,15 @@ double average=0; //return local variable
 //
 
 public double[] setGrades(){
-double[] grades = [4];
+double [] grades = new double [4];
 for (int i=0; i<grades.length; i++)
-grades[i]=math.random*10;
+ grades[i]= (Math.random()*10)+1;
 //use Math.random to set new array
 
 return grades;
 
 }
-
+//fix me!
 public double getAverage(){
 	average=0;
 	  for(int i=0;i< testArray.length;i++)
